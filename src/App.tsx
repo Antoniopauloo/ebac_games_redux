@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react'
 import { Provider } from 'react-redux'
 import Header from './components/Header'
 import Produtos from './containers/Produtos'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 import { GlobalStyle } from './styles'
 
@@ -25,6 +26,7 @@ function App() {
         <Header />
         <Produtos />
       </div>
+      <ToastContainer position="bottom-right" />
     </Provider>
   )
 }

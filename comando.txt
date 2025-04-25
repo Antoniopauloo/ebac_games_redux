@@ -4,3 +4,4 @@ npx json-server db.json --port 4000 --delay 1000
 
 (2 - cmd ou vs code outro): npx json-server@0.17.3 db.json --port 4000 --delay 1000
 
+npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier
